@@ -1,0 +1,45 @@
+{
+  "name": "Meteor-Files",
+  "version": "1.7.17",
+  "description": "Upload files with the speed of Meteor. Application build on top of ostrio:files package",
+  "main": "main.js",
+  "scripts": {
+    "preinstall": "cd ./programs/server && npm install",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeliovGroup/Meteor-Files-Demo.git"
+  },
+  "keywords": [
+    "meteor",
+    "node",
+    "node.js",
+    "files",
+    "file",
+    "streaming",
+    "upload",
+    "ddp",
+    "sockets",
+    "cdn"
+  ],
+  "author": "Dmitriy A. (Veliov Group, LLC)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/VeliovGroup/Meteor-Files-Demo/issues"
+  },
+  "homepage": "https://github.com/VeliovGroup/Meteor-Files-Demo",
+  "dependencies": {
+    "aws-sdk": "^2.86.0",
+    "babel-runtime": "^6.23.0",
+    "dropbox": "^0.10.3",
+    "fs-extra": "^3.0.1",
+    "gm": "^1.23.0",
+    "meteor-node-stubs": "^0.2.11",
+    "request": "^2.81.0"
+  },
+  "engines": {
+    "node": "4.8.3",
+    "npm": "4.6.1"
+  }
+}
